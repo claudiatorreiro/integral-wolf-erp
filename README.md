@@ -18,6 +18,34 @@ O sistema centraliza processos administrativos e substitui controles manuais, pr
 
 ---
 
+## 📸 Demonstração do sistema
+
+### 🔐 Tela de Login
+![Login](assets/1%20-%20Tela%20de%20login%20-%20INTEGRAL%20WOLF.png)
+
+### 📊 Dashboard
+![Dashboard](assets/2%20-%20Dashboard%20-%20INTEGRAL%20WOLF.png)
+
+### 👥 Gestão de Clientes
+![Clientes](assets/3%20-%20Clientes%20-%20INTEGRAL%20WOLF.png)
+![Novo Cliente](assets/4%20-%20Inclusão%20de%20clientes%20-%20INTEGRAL%20WOLF.png)
+![Editar Cliente](assets/5%20-%20Edição%20de%20clientes%20-%20INTEGRAL%20WOLF.png)
+
+### 📄 Gestão de Contratos
+![Contratos](assets/7%20-%20Lista%20de%20contratos%20-%20INTEGRAL%20WOLF.png)
+![Detalhes](assets/6%20-%20Detalhes%20contratos%20-%20INTEGRAL%20WOLF.png)
+![Edição](assets/8%20-%20Edição%20contratos%20-%20INTEGRAL%20WOLF.png)
+
+### 💰 Financeiro
+![Recebimentos](assets/9%20-%20Recebimentos%20-%20INTEGRAL%20WOLF.png)
+![Novo Recebimento](assets/11%20-%20Novos%20recebimentos%20-%20INTEGRAL%20WOLF.png)
+![Edição Recebimento](assets/10%20-%20Edição%20recebimentos%20-%20INTEGRAL%20WOLF.png)
+
+### 📉 Controle de Gastos
+![Gastos](assets/12%20-%20Gastos%20-%20INTEGRAL%20WOLF.png)
+![Novo Gasto](assets/14%20-%20Novos%20gastos%20-%20INTEGRAL%20WOLF.png)
+![Edição Gasto](assets/13%20-%20Edição%20gastos%20-%20INTEGRAL%20WOLF.png)
+
 ## 💡 Problema que resolve
 
 Pequenas empresas frequentemente utilizam planilhas e controles isolados, gerando:
