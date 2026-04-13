@@ -1,20 +1,68 @@
 # 🐺 Integral Wolf
 
-> ERP Web para gestão de pequenas empresas  
-> (Financeiro · Comercial · Estoque)
+ERP Web para gestão administrativa e financeira de pequenas empresas  
+(Financeiro · Comercial · Estoque)
 
 ---
 
 ## 🚀 Sobre o projeto
 
-O **Integral Wolf** é uma aplicação web desenvolvida com Django, com foco na gestão integrada de pequenas empresas.
+O **Integral Wolf** é um sistema web desenvolvido em Django com foco na organização e centralização de processos administrativos de pequenas empresas.
 
-O sistema centraliza processos administrativos e substitui controles manuais, promovendo:
+A aplicação integra funcionalidades de gestão de clientes, contratos e controle financeiro, substituindo controles manuais e promovendo mais eficiência, rastreabilidade e melhor tomada de decisão.
 
-- 📊 Organização de dados
-- 🔗 Integração entre setores
-- 📈 Melhor tomada de decisão
-- 🔍 Rastreabilidade de operações
+---
+
+## 🎯 Problema que resolve
+
+Pequenas empresas frequentemente utilizam planilhas, anotações manuais ou sistemas fragmentados para controlar suas operações, o que gera:
+
+- Falta de organização dos dados  
+- Dificuldade no acompanhamento financeiro  
+- Risco de erros e inconsistências  
+- Baixa visibilidade das informações  
+
+O Integral Wolf resolve esse problema centralizando todas essas operações em um único sistema.
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+### Backend
+- Python 3.x
+- Django 6.0
+
+### Interface
+- Django Templates
+- Bootstrap 5
+- HTML5
+- CSS3
+
+### Formulários
+- Django Crispy Forms
+- Crispy Bootstrap 5
+
+### Banco de Dados
+- SQLite (ambiente de desenvolvimento)
+- dj-database-url (configuração por ambiente)
+
+### Servidor e Deploy
+- WhiteNoise (arquivos estáticos)
+- Gunicorn
+- Uvicorn
+
+---
+
+## ⚙️ Funcionalidades principais
+
+- 🔐 Autenticação de usuários  
+- 📊 Dashboard com visão geral do sistema  
+- 👥 Gestão de clientes (cadastro, edição e listagem)  
+- 📄 Gestão de contratos  
+- 💰 Controle de recebimentos  
+- 📉 Controle de gastos  
+- 🔍 Visualização detalhada de contratos  
+- 📌 Organização administrativa e financeira integrada  
 
 ---
 
@@ -46,97 +94,44 @@ O sistema centraliza processos administrativos e substitui controles manuais, pr
 ![Novo Gasto](assets/14%20-%20Novos%20gastos%20-%20INTEGRAL%20WOLF.png)
 ![Edição Gasto](assets/13%20-%20Edição%20gastos%20-%20INTEGRAL%20WOLF.png)
 
-## 💡 Problema que resolve
+---
 
-Pequenas empresas frequentemente utilizam planilhas e controles isolados, gerando:
+## 🧩 Regras e decisões técnicas
 
-- inconsistência de dados  
-- retrabalho  
-- dificuldade de gestão  
-
-👉 O sistema resolve isso centralizando tudo em um único ambiente.
+- Uso de modelo de usuário customizado (`AUTH_USER_MODEL`)
+- Configuração de autenticação com redirecionamentos definidos
+- Separação entre ambiente de desenvolvimento e produção
+- Gerenciamento de arquivos estáticos com WhiteNoise
+- Estrutura preparada para uso de banco em produção via `dj-database-url`
+- Internacionalização configurada para português (pt-BR)
+- Fuso horário configurado para América/São Paulo
 
 ---
 
-## 🧠 Minha atuação
+## 💡 Diferenciais do projeto
 
-Atuei neste projeto como:
-
-- 👩‍💻 Desenvolvimento backend com Django  
-- 🧩 Modelagem de dados e regras de negócio  
-- ⚙️ Implementação de validações e lógica do sistema  
-- 🏗️ Estruturação da arquitetura MVT  
-
----
-
-## 🧩 Funcionalidades
-
-### 💰 Financeiro
-- Controle de receitas e despesas
-- Categorias financeiras
-- Saldo mensal automático
-
-### 🤝 Comercial (CRM)
-- Cadastro de clientes
-- Gestão de contratos
-- Status automático de contratos ativos
-
-### 📦 Estoque
-- Controle de itens
-- Movimentações (entrada, saída e ajuste)
-- Definição de estoque mínimo
+- Estrutura organizada seguindo padrão MVT do Django  
+- Integração entre áreas administrativas e financeiras  
+- Modelagem baseada em problemas reais de gestão  
+- Interface simples e funcional voltada ao uso prático  
+- Projeto preparado para evolução e escalabilidade  
 
 ---
 
-## 🛠️ Tecnologias
+## 🎯 Contexto de desenvolvimento
 
-- Python  
-- Django  
-- Bootstrap  
-- PostgreSQL / SQLite  
+Projeto desenvolvido no contexto do programa **Bolsa Futuro Digital**, como parte da formação em desenvolvimento backend com Python e Django.
 
----
-
-## ⚠️ Observação
-
-Este projeto foi desenvolvido em equipe no programa **Bolsa Futuro Digital (Softex PE)**.
-
-🔒 O repositório original é privado, por isso este espaço apresenta:
-
-- visão geral do sistema  
-- minha atuação  
-- estrutura e funcionalidades  
-- documentação técnica  
-
----
-
-## 📚 Documentação
-
-👉 https://www.notion.so/Integral-Wolf-Documenta-o-T-cnica-Oficial-2ed99d61a48e803da085eba7b4866ef3?source=copy_link
-
----
-
-## 📸 Demonstração
-
-Em breve.
-
----
-
-## 🎯 Valor profissional
-
-Este projeto demonstra:
-
-- ✔️ Desenvolvimento backend com Django  
-- ✔️ Modelagem de regras de negócio  
-- ✔️ Integração entre módulos  
-- ✔️ Trabalho em equipe  
-- ✔️ Pensamento orientado a solução  
+Este projeto representa a aplicação prática dos conhecimentos adquiridos, com foco na construção de uma solução funcional e alinhada a necessidades reais de negócio.
 
 ---
 
 ## 🚀 Próximos passos
 
-- API REST com Django REST Framework  
-- Autenticação JWT  
-- Deploy em cloud  
-- Evolução do sistema
+- Migração para PostgreSQL em ambiente de produção  
+- Implementação de autenticação mais robusta  
+- Deploy em ambiente cloud  
+- Melhorias na experiência do usuário (UI/UX)  
+- Expansão do dashboard com indicadores e relatórios  
+
+---
